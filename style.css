@@ -280,6 +280,74 @@ nav {
     transition: background-color 0.3s ease;
     cursor: pointer;
 }
+.projects-container {
+    width: 100%;
+    padding-top: 160px;
+    padding-bottom: 150px;
+    border: 1px solid #333;
+}
+.projects-container h2 {
+    text-align: center;
+    color: var(--white);
+    font-size: 3rem;
+    margin-bottom: 70px;
+    font-family: "myFont", sans-serif;
+    font-weight: 600;
+}
+.projects-container .projects-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.projects-container .project-item {
+    width: 300px;
+    height: 300px;
+    background: var(--light-purple);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--white);
+    background: #6523A7;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+}
+.project-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.project-item h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.project-item p {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+.project-item:hover {
+    background: #4B1780;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.project-icon
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.project-icon a {
+    color: var(--white);
+    font-size: 1rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
 
 
 
