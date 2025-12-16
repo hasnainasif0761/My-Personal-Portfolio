@@ -284,7 +284,6 @@ nav {
     width: 100%;
     padding-top: 160px;
     padding-bottom: 150px;
-    border: 1px solid #333;
 }
 .projects-container h2 {
     text-align: center;
@@ -348,6 +347,162 @@ nav {
     margin: 0 10px;
     transition: color 0.3s ease;
 }
+.contact-container {
+    width: 100%;
+    padding-top: 150px;
+    /* padding-bottom: 150px; */
+    text-align: center;
+}
+.contact-container h2 {
+    color: var(--white);
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: "myFont", sans-serif;
+    font-weight: 600;
+}
+.contact-info
+{
+    width: 50%;
+    height: auto;
+
+    padding-top: 50px;
+}
+.contact-info p {
+    color: var(--white);
+    font-size: 1rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-left: 10px;
+}
+.contact-info i {
+    color: #6523A7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.contact-info i:hover {
+    color: #4B1780;
+}
+.contact-info p
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.contact-content-info
+{
+    width: 70%;
+    height: auto;
+    margin-left: 90px;
+}
+.contact-main-info
+{
+    height: 280px;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+.contact-icon-flex {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    padding-left: 100px;
+}
+.contact-icon {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #6523A7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    /* margin: 0 20px; */
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    background-color: var(--light-purple);
+}
+.contact-icon i
+{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.contact-icon:hover {
+    border-color: #4B1780;
+    cursor: pointer;
+}
+.contact-per-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    padding-top: 5px;
+}
+.contact-per-info p {
+    font-size: 1rem;
+    color: var(--white);
+    font-weight: 300;
+}
+.personal-contact-container
+{
+    width: 100%;
+    display: flex;
+}
+.contact-form-container
+{
+    width: 50%;
+    height: auto;
+    padding: 50px 20px;
+}
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-form-container input, .contact-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #6523A7;
+    border-radius: 5px;
+    background-color: var(--light-purple);
+    color: var(--white);
+    font-size: 1rem;
+    resize: none;
+    outline: none;
+}
+.contact-form-container input::placeholder, .contact-form-container textarea::placeholder {
+    color: var(--white);
+    opacity: 0.7;
+}
+.contact-form-container button {
+    padding: 10px 20px;
+    background-color: #6523A7;
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contact-form-container button:hover {
+    background-color: #4B1780;
+}
+.contact-title
+{
+    text-align: start;
+    padding-left: 100px;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+
+
+
+
 
 
 
@@ -473,4 +628,39 @@ nav {
     .skills-grid {
         gap: 20px;
     }
+    .personal-contact-container
+    {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .contact-info
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        padding-top: 0px;
+        padding-left: 0px;
+        border: 1px solid #6523A7;
+        text-align: start;
+    }
+    .contact-content-info
+    {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding-right: 5px;
+    }
+    .contact-icon-flex {
+        padding-left: 20px;
+    }
+    .contact-form-container
+    {
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-title
+    {
+        text-align:start;
+        padding-left: 20px;
+    }
+
 }
