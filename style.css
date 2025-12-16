@@ -512,25 +512,7 @@ footer p {
     font-size: 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ----------- Media Quesries Section Start ----------- */
 
 @media screen and (max-width:580px) {
     .hamburger {
